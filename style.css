@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body * {
+  outline: 1px solid pink;
+} */
+
+body {
+  background-color: rgb(252, 241, 185);
+  color: rgb(249, 222, 147);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.box {
+  background-color: rgb(74, 117, 108);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.box h1 {
+  padding: 20px;
+}
+
+.box form {
+  padding: 20px;
+}
+
+.box form label {
+  padding: 20px;
+}
+
+input[type="number"] {
+  margin: 10px;
+  width: 50px;
+  outline: 0;
+}
+
+#btn {
+  padding: 3px;
+  border-radius: 2px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+#feedback {
+  height: 30px;
+  width: 400px;
+}
